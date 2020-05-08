@@ -1,0 +1,56 @@
+.register-newcase-container{
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-newcase-container img{
+    width: 220px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.register-newcase-container h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.register-newcase-container input, .register-newcase-container textarea{
+    margin-top: 12px;
+}
+
+.register-newcase-container textarea{
+    width: 100%;
+    height: 120px;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 14px 24px;
+    font-size: 14px;
+    transition: 0.4s;
+    resize: none;
+}
+
+.register-newcase-container .button{
+    background-color: #009933;
+    text-transform: uppercase;
+}
+
+.register-newcase-container .button:hover{
+    background-color: #006622;
+}
+
+.register-newcase-container .link{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}

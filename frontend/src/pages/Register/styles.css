@@ -1,0 +1,101 @@
+.register-container{
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container img{
+    width: 120px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.register-container h1{
+    text-align: center;
+    margin-top: 350px;
+}
+
+.register-container form .input-group{
+    display: flex;
+    margin-top: 60px;
+} 
+
+.register-container form .input-group input + input{
+    margin-left: 6px;
+}
+
+.register-container form .input-group:after{
+    content: "";
+    clear: both;
+}
+
+.register-container form .input-item{
+    border: 1px solid #333;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+
+.input-item label{
+    background: #fcfcfc no-repeat center center;
+    bottom: 1px;
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    left: 1px;
+    position: absolute;
+    right: 1px;
+    text-indent: 100%;
+    top: 1px;
+    white-space: nowrap;
+}
+
+#user-institution label{
+    background-image: url(../../assets/institution.png);
+    background-size: 100%;
+}
+
+#user-ong label{
+    background-image: url(../../assets/ong.png);
+    background-size: 100%;
+}
+
+.input-group input:hover + label{
+    outline: 4px solid #009933;
+}
+
+.input-group input:checked + label {
+    outline: 4px solid #009933;
+    border-radius: 6px;
+}
+
+.register-container input{
+    margin-top: 12px;
+}
+
+.register-container .link{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.register-container .button{
+    background-color: #009933;
+    text-transform: uppercase;
+}
+
+
+.register-container .button:hover{
+    background-color: #006622;
+}
